@@ -28,18 +28,18 @@
   \code{xpro <- xproj$"0.25"}.
 
   The MCMC analysis was run using the \dfn{AD Model Builder} software
-  (\url{http://admb-project.org}).
+  (\url{http://www.admb-project.org/}).
 }
 \references{
   Fournier, D. A., Skaug, H. J., Ancheta, J., Ianelli, J., Magnusson,
-  A., Maunder, M. N., Nielsen, A., and Sibert, J. (2012) AD Model
+  A., Maunder, M. N., Nielsen, A. and Sibert, J. (2012) AD Model
   Builder: using automatic differentiation for statistical inference of
   highly parameterized complex nonlinear models. \emph{Optimization
-    Methods and Software} \bold{27}, 233--249.
+    Methods and Software}, \bold{27}, 233--249.
 
-  Magnusson, A., Punt, A. E., and Hilborn, R. (2013) Measuring
+  Magnusson, A., Punt, A. E. and Hilborn, R. (2013) Measuring
   uncertainty in fisheries stock assessment: the delta method,
-  bootstrap, and MCMC. \emph{Fish and Fisheries} \bold{14}, 325--342.
+  bootstrap, and MCMC. \emph{Fish and Fisheries}, \bold{14}, 325--342.
 }
 \seealso{
   \code{\link{xpar}} (parameters), \code{\link{xrec}} (recruitment),
@@ -55,4 +55,3 @@ plotQuant(xpro, axes=1:2, div=1000, xlab="Year",
 plotSplom(xpro, axes=TRUE, between=1, div=1000, main="Future biomass",
           cex.labels=1.5, pch=".", cex=3)
 }
-\keyword{datasets}

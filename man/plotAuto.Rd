@@ -23,8 +23,8 @@ plotAuto(mcmc, thin=1, log=FALSE, base=10, main=NULL, xlab="Lag",
   \item{lty}{line type.}
   \item{lwd}{line width.}
   \item{col}{line color.}
-  \item{\dots}{passed to \code{autocorr.plot()}, \code{title()} and
-    \code{axis()}.}
+  \item{\dots}{passed to \code{autocorr.plot}, \code{title}, and
+    \code{axis}.}
 }
 \value{Null, but a plot is drawn on the current graphics device.}
 \note{
@@ -49,7 +49,3 @@ plotAuto(xpar$R0)
 plotAuto(xpar$R0, thin=10)
 plotAuto(xpar, lag.max=50, ann=FALSE, axes=FALSE)
 }
-% Graphics
-\keyword{hplot}
-% Statistics
-\keyword{ts}
